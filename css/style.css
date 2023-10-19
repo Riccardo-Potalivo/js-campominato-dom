@@ -50,3 +50,8 @@ general
 {
     background-color: rgb(0, 100, 255);
 }
+
+.bomb
+{
+    background-color: red;
+}
