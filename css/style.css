@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* border: solid 1px black; */
+}
+
+/***************************************************
+palette
+***************************************************/
+
+
+/***************************************************
+variables
+***************************************************/
+
+
+/***************************************************
+utility
+***************************************************/
+
+
+/***************************************************
+general
+***************************************************/
+#grid_container
+{
+    width: 600px;
+    aspect-ratio: 1;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square
+{
+    height: calc(100% / 10);
+    aspect-ratio: 1;
+    background-color: green;
+    border: solid black 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active
+{
+    background-color: rgb(0, 102, 255);
+}
