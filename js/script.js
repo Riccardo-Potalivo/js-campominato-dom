@@ -17,6 +17,20 @@ function()
         squareContainer.append(square)
     }
     
+    // generare n numeri random per le bombe
+    const bombNumber = 16;
+
+    const bombs = [];
+    while(bombs.length < bombNumber)
+    {
+        let bombRandomRange = getRndInteger(1, squareNumber);
+        if(!bombs.includes(bombRandomRange))
+        {
+            bombs.push(bombRandomRange);
+        }
+    }
+    console.log(bombs);
+
 });
 
 function getSquare(squareIndex, squareNumber)
